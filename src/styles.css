@@ -80,3 +80,24 @@ form i {
     font-style: italic;
     float: right;
 }
+
+.form .btn {
+    outline: none;
+    border: none;
+    width: 320px;
+    height: 55px;
+    background-color: #4285F4;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+    transition-property: border-left, border-right, box-shadow;
+}   
+
+.form .btn:hover {
+    border-left : solid 8px rgba(255, 255, 255, .5 );
+    border-right : solid 8px rgba(255, 255, 255, .5 );
+    box-shadow: 0 0 100px rgba(66,  133, 244, .8);
+}
