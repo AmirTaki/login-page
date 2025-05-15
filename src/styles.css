@@ -101,3 +101,14 @@ form i {
     border-right : solid 8px rgba(255, 255, 255, .5 );
     box-shadow: 0 0 100px rgba(66,  133, 244, .8);
 }
+
+.form .option-02{
+    color : #bbb;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.form .option-02 a {
+    color : #4285F4
+}
+
