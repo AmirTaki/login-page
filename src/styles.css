@@ -30,8 +30,58 @@ form i {
     font-size: 65px;
     margin-bottom: 30px;    
 }
-.form .signup-form {
-    display: none;
+
+.animatinformOne {
+    animation : move .2s forwards
+}
+
+@keyframes move {
+    0% {transform: translateY(0px);}
+ 
+    50% {transform: translateY(-450px);display:none;}
+
+    100%{transform: translateY(-900px);
+        
+    }
+}
+
+
+.animatinformtTwo{
+     animation : esm 1.5s forwards 
+}
+
+@keyframes esm {
+    0% {transform: translateY(400px);
+    }
+   
+
+    100%{transform: translateY(-200px);
+    }
+}
+
+.animatinformtTwoR {
+    animation : reverseLogin 1s forwards ;
+   
+}
+
+@keyframes reverseLogin {
+    0% {transform: translateY(-200px);}
+ 
+    50% {transform: translateY(-950px) }
+
+    100%{transform: translateY(-1500px);display:none; }
+}
+
+.animatinformOneR {
+    animation:  reverseSign 4.5s forwards;
+}
+@keyframes reverseSign {
+    0% {transform: translateY(-550px);
+    }
+   
+
+    100%{transform: translateY(0px);
+    }
 }
 
 
@@ -102,15 +152,22 @@ form i {
     box-shadow: 0 0 100px rgba(66,  133, 244, .8);
 }
 
-.form .option-02{
+.form .options-02{
     color : #bbb;
     font-size: 14px;
     margin-top: 30px;
 }
 
-.form .option-02 a {
+.form .options-02 a {
     color : #4285F4
 }
+
+
+
+.deactive {
+    display: none
+}
+
 
 
 
