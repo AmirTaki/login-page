@@ -16,6 +16,10 @@ body {
     background-color: #111;
 }
 
+a:hover {
+    cursor: pointer;
+}
+
 .form {
     z-index: 1;
     font-family: "Poppins", sans-serif;
@@ -38,9 +42,9 @@ form i {
 @keyframes move {
     0% {transform: translateY(0px);}
  
-    50% {transform: translateY(-450px);display:none;}
+    50% {transform: translateY(-450px)}
 
-    100%{transform: translateY(-900px);
+    100%{transform: translateY(-900px); display:none;
         
     }
 }
@@ -51,11 +55,11 @@ form i {
 }
 
 @keyframes esm {
-    0% {transform: translateY(400px);
+    0% {transform: translateY(800px);
     }
-   
 
-    100%{transform: translateY(-200px);
+
+    100%{transform: translateY(0px);
     }
 }
 
@@ -73,12 +77,13 @@ form i {
 }
 
 .animatinformOneR {
-    animation:  reverseSign 4.5s forwards;
+    animation:  reverseSign 3s forwards;
 }
 @keyframes reverseSign {
-    0% {transform: translateY(-550px);
+    0% {transform: translateY(-850px);
     }
    
+    /* 50% {transform: translateY(-300px);} */
 
     100%{transform: translateY(0px);
     }
